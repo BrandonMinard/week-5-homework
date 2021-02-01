@@ -80,7 +80,7 @@ $(".saveBtn").on("click", function () {
 
     //Saves daysTasks
     localStorage.setItem("dailyTasks", JSON.stringify(daysTasks))
-
+});
 
 
 
